@@ -18,7 +18,6 @@ NOTE: all files associated to this .names file have the ann- prefix.
        cd pub/neuroprose
        binary
        get schiff.bp_speedup.ps.Z
-       quit
 
        The report is an overview of many different backprop speedup techniques.
        15 different algorithms are described in detail and compared by using
