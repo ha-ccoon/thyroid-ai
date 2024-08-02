@@ -1,0 +1,68 @@
+;
+; Thyroid disease records supplied by the Garavan Institute and J. Ross
+; Quinlan, New South Wales Institute, Syndney, Australia.
+;
+; 1987.
+;
+
+//
+관계
+- T3와 T4는 신진대사 조절, T4 -> T3로 변환되어 적용
+TSH 감소, FTI 증가
+
+TSH(갑상선 자극 호르몬)
+- 갑상선 기능 평가에 사용. 암 진단과는 관련 없음. 갑상선 결정 평가에 중요
+- T3와 T4 분비 자극. 충분히 분비되면 TSH 분비 억제.
+- 갑상선 기능을 조절하는 주요 호르몬입니다. TSH 수치가 높으면 갑상선 기능이 저하되어 있고, 낮으면 기능이 항진되어 있음을 시사합니다.
+
+갑상선 병 진단 요소
+allbp.names
+
+갑상선 병명
+allhyper.names
+allhypo.names
+
+갑상선 치료
+allrep
+
+갑상선 판단 여부 어려운 상태
+dis.names
+
+다른 요인으로 갑상선 기능이 저하된 상태
+
+sick.names
+
+
+TBG
+increased binding protein, decreased binding protein,
+negative.			|  classes
+
+age:				continuous.
+sex:				M, F.
+on thyroxine:			f, t.
+query on thyroxine:		f, t.
+on antithyroid medication:	f, t.
+sick:				f, t.
+pregnant:			f, t.
+thyroid surgery:		f, t.
+I131 treatment:			f, t.
+query hypothyroid:		f, t.
+query hyperthyroid:		f, t.
+lithium:			f, t.
+goitre:				f, t.
+tumor:				f, t.
+hypopituitary:			f, t.
+psych:				f, t.
+TSH measured:			f, t.
+TSH:				continuous.
+T3 measured:			f, t.
+T3:				continuous.
+TT4 measured:			f, t.
+TT4:				continuous.
+T4U measured:			f, t.
+T4U:				continuous.
+FTI measured:			f, t.
+FTI:				continuous.
+TBG measured:			f, t.
+TBG:				continuous.
+referral source:		WEST, STMW, SVHC, SVI, SVHD, other.
